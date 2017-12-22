@@ -1,0 +1,37 @@
+﻿<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<script>
+    $(document).ready(function () {
+        $("#Validate").click(function () {
+            var input = document.getElementById('Coupon');
+            var couponEntry = input.value;
+            $.post('Home/ValidateCoupon', { 'couponEntry': couponEntry }, function (data) {
+                if(data) {
+                    document.getElementById('PaymentInfo').hidden = true;
+                }
+                else {
+                    document.getElementById('Error').innerHTML = "ERROR INVALID COUPON";
+                };
+            })
+        })
+    })
+</script>
+
+<div id="PaymentInfo" >
+    <p>This is the payment info.</p>
+</div>
+<br />
+<br />
+<br />
+Coupon Code:<input id="Coupon" type="text"/>
+<br />
+<button id="Validate" class="btn btn-primary" type="button" >
+Validate
+</button>
+<p id="Error"></p>
