@@ -1,0 +1,5 @@
+C:\Users\Student\Documents\GitHub\Projects\BloggersAppTutorial\HangingTree\bin\Debug\HangingTree.dll
+C:\Users\Student\Documents\GitHub\Projects\BloggersAppTutorial\HangingTree\bin\Debug\HangingTree.pdb
+C:\Users\Student\Documents\GitHub\Projects\BloggersAppTutorial\HangingTree\obj\Debug\HangingTree.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\Projects\BloggersAppTutorial\HangingTree\obj\Debug\HangingTree.dll
+C:\Users\Student\Documents\GitHub\Projects\BloggersAppTutorial\HangingTree\obj\Debug\HangingTree.pdb
